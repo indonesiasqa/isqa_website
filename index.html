@@ -13,27 +13,26 @@
 </head>
 
 <body>
-    <div class="container">
-        <div>
-            <!--Navigation-->
-            <div id="main-nav" class="navigation navbar-dark bg-dark">
-                <ul class="nav justify-content-end navbar-fixed-top">
-                    <li class="nav-item">
-                        <a class="scroll nav-link" href="#about">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="scroll nav-link" href="#gallery">Gallery</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="scroll nav-link" href="#calendar">Calendar</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="scroll nav-link" href="#contact">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
+    <div>
+        <!--Navigation-->
+        <div id="main-nav" class="navigation navbar-dark bg-dark">
+            <ul class="nav justify-content-end navbar-fixed-top">
+                <li class="nav-item">
+                    <a class="scroll nav-link" href="#about">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="scroll nav-link" href="#gallery">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="scroll nav-link" href="#calendar">Calendar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="scroll nav-link" href="#contact">Contact Us</a>
+                </li>
+            </ul>
         </div>
-
+    </div>
+    <div class="container">
         <section id="about">
             <div class="jumbotron">
                 <h1 class="display-4">Indonesian Software Quality Assurance</h1>
@@ -96,10 +95,37 @@
 
         <section id="contact">
             <H1 align="center">CONTACT</H1>
-            <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
-        </section>
+            <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odiiat quo voluptas nulla pariatur?"</p>
 
+            <div class="contact-image-wrapper" id="test-id1">
+                <img class="contact-image" src="img/fb.png" alt="">
+                <p>Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="contact-image-wrapper" id="test-id2">
+                <img class="contact-image" src="img/mail.png" alt="">
+                <p>Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="contact-image-wrapper" id="test-id3">
+                <img class="contact-image" aria-atomic="" src="img/location.png" alt="">
+                <p>Lorem ipsum dolor sit amet</p>
+            </div>
+
+            <div class="clearfix"></div>
+        </section>
     </div>
+    <section id="footer">
+        <div class="footer-wrapper">
+           <div class="footer-left">
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, deserunt.
+           </div>
+            <div class="footer-mid">
+                <p>Copyright &copy; 2017</p>
+            </div>
+            <div class="footer-right">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, esse!
+            </div>
+        </div>
+    </section>
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
@@ -115,6 +141,7 @@
     $('.myCaraousel').carousel({
         interval: 500
     })
+
 </script>
 
 <script src="jquery/jquery.min.js"></script>

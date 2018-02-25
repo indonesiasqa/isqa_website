@@ -12,23 +12,16 @@
     margin-top: 100px;
 }
 
-#gallery {
+#gallery,
+#calendar,
+#contact{
     background-color: white;
-    margin: 0;
-}
-
-#calendar {
-    background-color: white;
-    margin: 0;
-}
-
-#contact {
-    background-color: white;
-    margin: 0;
+    margin: 40px 0px;
+    text-align: center;
 }
 
 ======================
-/*FOR MAIN NAVBAR*/
+/*MAIN NAVBAR*/
 ======================
 
 #main-nav {
@@ -52,7 +45,7 @@
 }
 
 ================================
-/*FOR SECTION GALLERY*/
+/*SECTION GALLERY*/
 ================================
 
 .myCaraousel {
@@ -67,4 +60,76 @@
     transition: prop time;
     : .3s;
     opacity: 0.8;
+}
+
+================================
+/*SECTION CONTACT*/
+================================
+
+.contact-content{
+    width: 300px;
+}
+
+.contact-image {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+}
+
+#test-id1,
+#test-id2,
+#test-id3{
+    margin-top: 30px;
+    width: 33.3%;
+    float: left;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.contact-image-wrapper{
+    text-align: center;
+    cursor: pointer;
+}
+
+.contact-image-wrapper p{
+    margin-top: 20px;
+}
+
+================================
+/*SECTION FOOTER*/
+================================
+
+.footer-wrapper{
+    background-color:#343a40;
+    color:#17a2b8;
+    text-align: center;
+}
+
+#footer{
+    background-color:#343a40;
+    color:#17a2b8;
+    padding: 0.5rem 1rem;
+    padding-top: 17px;
+    text-align: center;
+}
+
+.footer-left{
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+}
+
+.footer-mid{
+    text-align: center;
+    display: inline-block;
+}
+
+
+.footer-right{
+    text-align: right;
+    display: inline;
+    right: 10px;
+    position: absolute;
 }
