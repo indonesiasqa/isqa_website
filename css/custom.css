@@ -1,38 +1,70 @@
 #header {
-  background: url('../img/isqa1.jpeg');
-  height: 800px;
-  margin: 0;
-  padding: 200px 0 260px 0;
+    background: url('../img/isqa1.jpeg');
+    height: 800px;
+    margin: 0;
+    padding: 200px 0 260px 0;
 }
 
 #about {
-  background-color: #FFF;
-  height: auto;
-  margin: 0;
-  padding: 60px 0 260px 0;
-  overflow: hidden;
+    background-color: #FFF;
+    height: auto;
+    margin: 0;
+    margin-top: 100px;
 }
 
 #gallery {
-  background-color: #red;
-  height: 500px;
-  margin: 0;
-  padding: 60px 0 260px 0;
-  overflow: hidden;
+    background-color: white;
+    margin: 0;
 }
 
 #calendar {
-  background-color: #white;
-  height: 500px;
-  margin: 0;
-  padding: 60px 0 260px 0;
-  overflow: hidden;
+    background-color: white;
+    margin: 0;
 }
 
 #contact {
-  background-color: #black;
-  height: 500px;
-  margin: 0;
-  padding: 60px 0 260px 0;
-  overflow: hidden;
+    background-color: white;
+    margin: 0;
+}
+
+======================
+/*FOR MAIN NAVBAR*/
+======================
+
+#main-nav {
+    position: fixed;
+    background: red;
+}
+
+.navigation a {
+    color: #17a2b8;
+}
+
+.navigation {
+    right: 0;
+    position: fixed;
+    background: white;
+    width: 100%;
+    z-index: 1;
+    padding: 0.5rem 1rem;
+    color: #17a2b8;
+    top: 0;
+}
+
+================================
+/*FOR SECTION GALLERY*/
+================================
+
+.myCaraousel {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: prop time;
+    : .3s;
+    opacity: 0.8;
 }
