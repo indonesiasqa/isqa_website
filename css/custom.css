@@ -4,3 +4,35 @@
   margin: 0;
   padding: 200px 0 260px 0;
 }
+
+#about {
+  background-color: #FFF;
+  height: auto;
+  margin: 0;
+  padding: 60px 0 260px 0;
+  overflow: hidden;
+}
+
+#gallery {
+  background-color: #red;
+  height: 500px;
+  margin: 0;
+  padding: 60px 0 260px 0;
+  overflow: hidden;
+}
+
+#calendar {
+  background-color: #white;
+  height: 500px;
+  margin: 0;
+  padding: 60px 0 260px 0;
+  overflow: hidden;
+}
+
+#contact {
+  background-color: #black;
+  height: 500px;
+  margin: 0;
+  padding: 60px 0 260px 0;
+  overflow: hidden;
+}
